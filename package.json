@@ -1,0 +1,49 @@
+{
+  "name": "tantric-astro-mcp",
+  "version": "1.0.0",
+  "description": "Official Tantric Astro MCP Server - True Citrapaksha Vedic Astrology (Jyotisha) calculations for D1-D144 divisional charts, Jaimini Chara Karakas, Ishta Devata, Arudha Lagna, Vimshottari Dasha, and Panchang by Tirth Doshi (tantricastro.com).",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "tantric-astro-mcp": "src/index.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/smoke.js"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "vedic-astrology",
+    "jyotish",
+    "jyotisha",
+    "citrapaksha",
+    "lahiri",
+    "navamsa",
+    "jaimini",
+    "panchang",
+    "vimshottari-dasha",
+    "tantric-astro"
+  ],
+  "author": "Tirth Doshi <tirthdos@gmail.com> (https://www.tantricastro.com/)",
+  "homepage": "https://www.tantricastro.com/calculators/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tirthdoshi/tantric-astro-mcp.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "astronomy-engine": "^2.1.19",
+    "zod": "^3.24.2"
+  }
+}
